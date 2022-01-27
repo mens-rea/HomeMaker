@@ -5,8 +5,11 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" style="width: 6rem;" />
-  <Home />
+  <div class="w-full">
+    <img class="mx-auto" alt="Vue logo" src="./assets/logo.png" style="width: 6rem;" />
+  </div>
+  
+  <Home />  
 </template>
 
 <style>
